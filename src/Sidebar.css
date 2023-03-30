@@ -1,0 +1,153 @@
+.sidebar_backimg{
+    margin-bottom: -25px;
+    width: 200px;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+   
+    object-fit: cover;
+}
+
+
+
+
+.sidebar_item{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 80px;
+    
+    
+    
+}
+
+
+
+.sidebar{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+    
+}
+
+
+
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    height: fit-content;
+    
+    
+    
+   
+}
+
+.sidebar_stat{
+    margin-top: 10px;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sidebar_stat > p{
+    padding-left: 30px;
+    color:gray;
+    font-size: 10px;
+    font-family: 600;
+}
+
+.sidebar_statnumber{
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+
+.sidebar_stats{
+    padding:20px;
+    
+   
+    
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.sidebar_up > h4{
+    color: gray;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.sodebar_up > h2{
+    font-size: 18px;
+}
+
+.sidebar_bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+   
+}
+
+.sidebar_recentItem{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+   
+    cursor: pointer;
+    
+}
+
+.sidebar_recentItem:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+.sidebar_up{
+    align-items: center;
+}
+
+
+
+/*.sidebar_top{
+
+    display:flex;
+    flex-direction: column;
+    
+    
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    
+    cursor: pointer;
+    
+    
+
+
+}
+
+.sidebar_item{
+    
+    column-gap: 10px;
+}*/
